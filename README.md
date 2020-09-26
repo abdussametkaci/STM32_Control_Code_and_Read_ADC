@@ -32,3 +32,8 @@ Butona basıldığında, 1 sn boyunca okunan 4 bit değerin 1 fazlasını göste
 • 1 adet potansiyometre
 
 • Gerekli dirençler ve kablolar
+
+## GPIO Konfigürasyon Ayarları
+ADC pini IN1 (PA_1) olarak seçilmiştir. İnterrupt enable yapıldı.
+Biz bu projede stm32f103c8t6 modelini kullanmak zorunda kaldık ve bu model ise sadece 12-bit
+resolution desteklemektedir. Biz de 6-bit yerine 12-bitlik sayıyı, 4 bitlik sayıya indirgedik.
