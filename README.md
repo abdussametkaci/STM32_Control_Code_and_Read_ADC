@@ -39,3 +39,5 @@ Biz bu projede stm32f103c8t6 modelini kullanmak zorunda kaldık ve bu model ise 
 resolution desteklemektedir. Biz de 6-bit yerine 12-bitlik sayıyı, 4 bitlik sayıya indirgedik.
 
 ![image](https://user-images.githubusercontent.com/61049743/94343613-f1779980-0021-11eb-803a-e3a82c0d11fa.png)
+
+NVIC konfigürasyonunda EXTI1 ve ADC interruptları enable edilmiştir
