@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"odev\stm32f1xx_it.o"
+"odev\stm32f1xx_hal_msp.o"
+"odev\main.o"
+"odev\startup_stm32f103xb.o"
+"odev\system_stm32f1xx.o"
+"odev\stm32f1xx_hal_adc.o"
+"odev\stm32f1xx_hal_rcc_ex.o"
+"odev\stm32f1xx_hal_gpio_ex.o"
+"odev\stm32f1xx_hal_flash_ex.o"
+"odev\stm32f1xx_hal_tim_ex.o"
+"odev\stm32f1xx_hal_gpio.o"
+"odev\stm32f1xx_hal_rcc.o"
+"odev\stm32f1xx_hal_adc_ex.o"
+"odev\stm32f1xx_hal_tim.o"
+"odev\stm32f1xx_hal_dma.o"
+"odev\stm32f1xx_hal_cortex.o"
+"odev\stm32f1xx_hal_flash.o"
+"odev\stm32f1xx_hal.o"
+"odev\stm32f1xx_hal_pwr.o"
+--library_type=microlib --strict --scatter "odev\odev.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "odev.map" -o odev\odev.axf
