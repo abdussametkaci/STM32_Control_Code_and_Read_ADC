@@ -81,3 +81,5 @@ Binary Formatı -> 1001
 
 ## Yazılım Akış Diyagramı
 ![image](https://user-images.githubusercontent.com/61049743/94343825-93e44c80-0023-11eb-901c-60df1bd590bd.png)
+
+## Donanım Şematik Çizimi
