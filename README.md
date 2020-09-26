@@ -43,3 +43,6 @@ resolution desteklemektedir. Biz de 6-bit yerine 12-bitlik sayıyı, 4 bitlik sa
 NVIC konfigürasyonunda EXTI1 ve ADC interruptları enable edilmiştir
 
 ![image](https://user-images.githubusercontent.com/61049743/94343631-153adf80-0022-11eb-8bae-918333780419.png)
+
+PA_3 External interrupt olarak ayarlandı. Buton buraya bağlanmıştır ve GPIO modu rising edge olarak
+ayarlanmıştır
