@@ -46,3 +46,5 @@ NVIC konfigürasyonunda EXTI1 ve ADC interruptları enable edilmiştir
 
 PA_3 External interrupt olarak ayarlandı. Buton buraya bağlanmıştır ve GPIO modu rising edge olarak
 ayarlanmıştır
+
+![image](https://user-images.githubusercontent.com/61049743/94343659-46b3ab00-0022-11eb-8f12-1e7aa9de8943.png)
