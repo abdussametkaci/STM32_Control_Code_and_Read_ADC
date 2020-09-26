@@ -48,3 +48,7 @@ PA_3 External interrupt olarak ayarlandı. Buton buraya bağlanmıştır ve GPIO
 ayarlanmıştır
 
 ![image](https://user-images.githubusercontent.com/61049743/94343659-46b3ab00-0022-11eb-8f12-1e7aa9de8943.png)
+
+Clock sinyalinin hangi osilatör ile sağlanacağını seçtik ve biz de kristal/seramik osilatörünü
+seçtik.CubeMX otmatik olarak;
+PD_0 -> RCC_OSC_IN, PD_1 -> RCC_OSC_OUT olarak ayarlandı
