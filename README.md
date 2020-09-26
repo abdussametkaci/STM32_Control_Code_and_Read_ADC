@@ -60,3 +60,6 @@ yaptığımız için sys ayarını Serial Wire olarak ayarladık. CubeMX otomati
 PA_14 -> SYS_JTCK-SWCLK , PA_13->SYS_JTMS-SWDIO olarak ayarladı.
 
 ![image](https://user-images.githubusercontent.com/61049743/94343705-ac079c00-0022-11eb-95c3-7f51ccd4e872.png)
+
+![image](https://user-images.githubusercontent.com/61049743/94343721-c8a3d400-0022-11eb-9943-89fe4bb8fef7.png)
+
