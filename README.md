@@ -3,9 +3,9 @@
 4 adet switch binary sayı girişi için kullanılacaktır. Projede kontrol ve çalışma
 kodu olmak üzere 2 adet özel kod bulunmaktadır.
 
-Kontrol kodu -> 1001
+Kontrol kodu -> 1000
 
-Çalışma kodu -> 1010
+Çalışma kodu -> 1001
 
 Sistemin çalışmaya başlaması için kontrol kodunun girilmesi şarttır. Kontrol kodu doğru
 olarak girilmeden sistem çalışmaya başlamayacaktır. Kontrol kodu doğru olarak
@@ -30,6 +30,8 @@ Butona basıldığında, 1 sn boyunca okunan 4 bit değerin 1 fazlasını göste
 • 4 adet led
 
 • 1 adet potansiyometre
+
+• STM32F103C8T6
 
 • Gerekli dirençler ve kablolar
 
@@ -63,3 +65,18 @@ PA_14 -> SYS_JTCK-SWCLK , PA_13->SYS_JTMS-SWDIO olarak ayarladı.
 
 ![image](https://user-images.githubusercontent.com/61049743/94343721-c8a3d400-0022-11eb-9943-89fe4bb8fef7.png)
 
+PA_1 -> ADC pini, potansiyometreden değer okunur
+PA_3 -> External interrupt, button bağlanmıştır
+PA_9 , PA_10, PA_11, PA_12 -> GPIO Output, ledler bağlanmıştır
+PB_12, PB_13, PB_14, PB_15 -> GPIO Input, 4 bitlik kontrol ve çalışma kodları girilir
+Pinlerin neyi ifade ettiği unutulmaması için yukarıdaki gibi pinler adlandırılmıştır.
+
+## Kontrol Kodu
+Kontrol Kodu -> 8
+Binary Formatı -> 1000
+
+## Çalışma Kodu
+Çalışma Kodu -> 9
+Binary Formatı -> 1001
+
+## Yazılım Akış Diyagramı
