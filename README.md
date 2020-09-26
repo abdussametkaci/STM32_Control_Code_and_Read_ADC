@@ -41,3 +41,5 @@ resolution desteklemektedir. Biz de 6-bit yerine 12-bitlik sayıyı, 4 bitlik sa
 ![image](https://user-images.githubusercontent.com/61049743/94343613-f1779980-0021-11eb-803a-e3a82c0d11fa.png)
 
 NVIC konfigürasyonunda EXTI1 ve ADC interruptları enable edilmiştir
+
+![image](https://user-images.githubusercontent.com/61049743/94343631-153adf80-0022-11eb-8bae-918333780419.png)
