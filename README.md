@@ -83,3 +83,4 @@ Binary Formatı -> 1001
 ![image](https://user-images.githubusercontent.com/61049743/94343825-93e44c80-0023-11eb-901c-60df1bd590bd.png)
 
 ## Donanım Şematik Çizimi
+![image](https://user-images.githubusercontent.com/61049743/94343865-e6256d80-0023-11eb-9381-0f66d787d737.png)
