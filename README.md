@@ -52,3 +52,5 @@ ayarlanmıştır
 Clock sinyalinin hangi osilatör ile sağlanacağını seçtik ve biz de kristal/seramik osilatörünü
 seçtik.CubeMX otmatik olarak;
 PD_0 -> RCC_OSC_IN, PD_1 -> RCC_OSC_OUT olarak ayarlandı
+
+![image](https://user-images.githubusercontent.com/61049743/94343685-75ca1c80-0022-11eb-9591-9380079363b6.png)
