@@ -54,3 +54,7 @@ seçtik.CubeMX otmatik olarak;
 PD_0 -> RCC_OSC_IN, PD_1 -> RCC_OSC_OUT olarak ayarlandı
 
 ![image](https://user-images.githubusercontent.com/61049743/94343685-75ca1c80-0022-11eb-9591-9380079363b6.png)
+
+STM32f103C8T6 kartını kullandığımız için programı yükleme işlmei ST_Link V2 programlayıcı kartı ile
+yaptığımız için sys ayarını Serial Wire olarak ayarladık. CubeMX otomatik olarak;
+PA_14 -> SYS_JTCK-SWCLK , PA_13->SYS_JTMS-SWDIO olarak ayarladı.
